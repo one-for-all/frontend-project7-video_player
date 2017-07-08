@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Zilla Slab', serif;
+}
+
+.caption {
+  font-size: 1rem;
+  line-height: 1.5em;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: left;
+}
+
+.highlighted {
+  color: red;
+}
+
+.mejs__time-total {
+  background-color: rgba(96, 77, 209, 0.5)
+}
+
+.mejs__time {
+  color: lightblue;
+}
+
+@media (min-width: 768px) {
+  body {
+    padding-top: 30px;
+    max-width: 90%;
+    margin: 0 auto;
+  }
+  .caption {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
